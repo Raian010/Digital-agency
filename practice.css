@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: grey;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.menus{
+    display: flex;
+}
+.menus li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.banner-container{
+    height: 100vh;
+    background-image: url('./asset/image/background.jpg'),
+    linear-gradient(#24242422,#222);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner{
+    color: white;
+    text-align: center;
+}
+.digital{
+    color: orangered;
+}
+.author-details{
+    display: flex;
+}
+.icon{
+    height: 100px;
+    width: 89px;
+}
+.service{
+    
+    padding: 20px;
+}
+.services{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.box-container{
+    margin-top: 20px;
+}
+.box-1{
+    display: flex;
+}
+.service-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 50%;
+}
+.box{
+    height: 200px;
+    width: 250px;
+    gap: 40px;
+    margin: 20px;
+    background-color: white;
+    color: black;
+}
+.phone-container{
+    background-color: orangered;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    margin-top: -30px;
+}
+.phone-call{
+    display: flex;
+    align-items: center;
+}
